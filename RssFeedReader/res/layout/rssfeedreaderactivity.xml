@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#5D5C5C"
+    android:orientation="vertical" >
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:background="@layout/shape"
+    android:layout_height="40dip"
+    >
+    
+    <TextView 
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#FFFFFF"
+android:layout_marginTop="2dip"
+android:layout_marginLeft="30dip"
+android:gravity="center"
+android:textSize="8pt"
+android:textStyle="bold"
+android:layout_gravity="center"
+android:text="mR aNdRoiD MaD TuToRiAL"
+ />
+    
+</LinearLayout>
+  <ListView 
+      android:layout_width="fill_parent"
+      android:layout_height="390dip"
+      android:id="@+id/rssfeed_listview"
+      android:background="#5D5C5C"
+      android:cacheColorHint="#00000000"
+      android:divider="#000000"
+      android:dividerHeight="1dip"
+      android:paddingLeft="5pt" 
+      android:paddingRight="5pt" 
+      android:transcriptMode="alwaysScroll"
+      ></ListView>
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:background="#000000"
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content"
+     >
+    <Button 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:text="Sort"
+        android:id="@+id/sort"
+        />
+    
+    </LinearLayout>
+</LinearLayout>
